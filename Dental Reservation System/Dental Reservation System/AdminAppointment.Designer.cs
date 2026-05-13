@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblPatientName = new System.Windows.Forms.Label();
             this.date = new System.Windows.Forms.DateTimePicker();
             this.time = new System.Windows.Forms.DateTimePicker();
@@ -46,6 +47,9 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.txtMessage = new System.Windows.Forms.RichTextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // lblPatientName
@@ -62,7 +66,7 @@
             // date
             // 
             this.date.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.date.Location = new System.Drawing.Point(26, 295);
+            this.date.Location = new System.Drawing.Point(317, 292);
             this.date.Name = "date";
             this.date.Size = new System.Drawing.Size(200, 20);
             this.date.TabIndex = 15;
@@ -71,7 +75,7 @@
             // time
             // 
             this.time.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.time.Location = new System.Drawing.Point(267, 295);
+            this.time.Location = new System.Drawing.Point(558, 292);
             this.time.Name = "time";
             this.time.Size = new System.Drawing.Size(200, 20);
             this.time.TabIndex = 17;
@@ -82,7 +86,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(57)))), ((int)(((byte)(43)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(342, 339);
+            this.button1.Location = new System.Drawing.Point(633, 336);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 39);
             this.button1.TabIndex = 20;
@@ -101,7 +105,7 @@
             "Dr. Kyle Albeos",
             "Dr. Yuri Calinawan",
             "Dr. Arron Calinawan"});
-            this.cmbDentist.Location = new System.Drawing.Point(26, 211);
+            this.cmbDentist.Location = new System.Drawing.Point(317, 208);
             this.cmbDentist.Name = "cmbDentist";
             this.cmbDentist.Size = new System.Drawing.Size(200, 21);
             this.cmbDentist.TabIndex = 21;
@@ -117,7 +121,7 @@
             "On-Going",
             "Cancelled",
             "Pending"});
-            this.cmbStatus.Location = new System.Drawing.Point(267, 211);
+            this.cmbStatus.Location = new System.Drawing.Point(558, 208);
             this.cmbStatus.Name = "cmbStatus";
             this.cmbStatus.Size = new System.Drawing.Size(200, 21);
             this.cmbStatus.TabIndex = 22;
@@ -160,7 +164,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(57)))), ((int)(((byte)(43)))));
-            this.label1.Location = new System.Drawing.Point(22, 169);
+            this.label1.Location = new System.Drawing.Point(313, 166);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 21);
             this.label1.TabIndex = 32;
@@ -171,7 +175,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(24, 190);
+            this.label2.Location = new System.Drawing.Point(315, 187);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 13);
             this.label2.TabIndex = 33;
@@ -182,7 +186,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(57)))), ((int)(((byte)(43)))));
-            this.label9.Location = new System.Drawing.Point(23, 248);
+            this.label9.Location = new System.Drawing.Point(314, 245);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(46, 21);
             this.label9.TabIndex = 34;
@@ -193,7 +197,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Gray;
-            this.label3.Location = new System.Drawing.Point(24, 269);
+            this.label3.Location = new System.Drawing.Point(315, 266);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(190, 13);
             this.label3.TabIndex = 35;
@@ -204,7 +208,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Gray;
-            this.label7.Location = new System.Drawing.Point(264, 269);
+            this.label7.Location = new System.Drawing.Point(555, 266);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(188, 13);
             this.label7.TabIndex = 36;
@@ -215,7 +219,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(57)))), ((int)(((byte)(43)))));
-            this.label6.Location = new System.Drawing.Point(263, 248);
+            this.label6.Location = new System.Drawing.Point(554, 245);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(48, 21);
             this.label6.TabIndex = 37;
@@ -226,7 +230,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(57)))), ((int)(((byte)(43)))));
-            this.label10.Location = new System.Drawing.Point(263, 169);
+            this.label10.Location = new System.Drawing.Point(554, 166);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(48, 21);
             this.label10.TabIndex = 38;
@@ -237,7 +241,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Gray;
-            this.label11.Location = new System.Drawing.Point(264, 190);
+            this.label11.Location = new System.Drawing.Point(555, 187);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(102, 13);
             this.label11.TabIndex = 39;
@@ -254,11 +258,33 @@
             this.label12.TabIndex = 40;
             this.label12.Text = "Recheck the client name always";
             // 
+            // txtMessage
+            // 
+            this.txtMessage.Location = new System.Drawing.Point(27, 182);
+            this.txtMessage.Name = "txtMessage";
+            this.txtMessage.Size = new System.Drawing.Size(255, 197);
+            this.txtMessage.TabIndex = 41;
+            this.txtMessage.Text = "";
+            this.toolTip1.SetToolTip(this.txtMessage, "Make sure to add word \"cancelled if it\'s cancelled\"");
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Gray;
+            this.label13.Location = new System.Drawing.Point(24, 166);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(258, 13);
+            this.label13.TabIndex = 42;
+            this.label13.Text = "Make sure to add a message to inform the client";
+            // 
             // AdminAppointment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(500, 400);
+            this.ClientSize = new System.Drawing.Size(789, 400);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.txtMessage);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -304,5 +330,8 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.RichTextBox txtMessage;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }

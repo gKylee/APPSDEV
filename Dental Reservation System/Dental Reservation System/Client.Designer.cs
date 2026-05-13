@@ -117,6 +117,7 @@
             // 
             // notifPanel
             // 
+            this.notifPanel.AutoScroll = true;
             this.notifPanel.Location = new System.Drawing.Point(35, 233);
             this.notifPanel.Name = "notifPanel";
             this.notifPanel.Size = new System.Drawing.Size(1409, 337);
