@@ -20,7 +20,7 @@ namespace Dental_Reservation_System
         public AdminAppointment(String name, int id)
         {
             InitializeComponent();
-            con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\User\\Desktop\\Dental Reservation System\\Dental Reservation System\\Dental.mdb");
+            con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\working\\Desktop\\APPSDEV\\Dental Reservation System\\Dental Reservation System\\Dental.mdb");
             this.name = name;
             this.id = id;
             checkInfo();

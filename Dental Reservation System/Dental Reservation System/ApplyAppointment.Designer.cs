@@ -89,6 +89,7 @@
             this.Name = "ApplyAppointment";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ApplyAppointment";
+            this.Load += new System.EventHandler(this.ApplyAppointment_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
