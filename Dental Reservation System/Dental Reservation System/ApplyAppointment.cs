@@ -20,8 +20,15 @@ namespace Dental_Reservation_System
             con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\working\\Desktop\\APPSDEV\\Dental Reservation System\\Dental Reservation System\\Dental.mdb");
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
+            // Empty
+            if (string.IsNullOrEmpty(txtProblem.Text))
+            {
+                MessageBox.Show("You must input the field before pressing that button","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                return;
+            }
             con.Open();
             OleDbCommand cmdRequest = new OleDbCommand("INSERT INTO Appointments ([PatientName],[Problem],[Status]) VALUES (?,?,?)", con);
             cmdRequest.Parameters.AddWithValue("?", Login.userName);

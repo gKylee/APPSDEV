@@ -100,7 +100,7 @@ namespace Dental_Reservation_System
 
             if (cmbStatus.Text == "Cancelled")
             {
-                string message = "Hello Dear Patient " + name + " Your application is cancelled please apply again. Thank you.";
+                string message = " Hello Dear Patient "+name + " " + txtMessage.Text;
                 sendNotif(message);
             }
             else
