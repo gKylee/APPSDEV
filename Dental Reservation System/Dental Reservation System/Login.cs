@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.OleDb;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Dental_Reservation_System
 {
@@ -34,6 +35,14 @@ namespace Dental_Reservation_System
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Empty
+            if (string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text))
+            {
+                lblIncorrect.ForeColor = Color.Red;
+                lblIncorrect.Text = "Please fill in all fields.";
+                return;
+            }
+
             con.Open();
             OleDbCommand loginCmd = new OleDbCommand("SELECT * FROM Users WHERE [Username]=? AND [Password]=?",con);
             loginCmd.Parameters.AddWithValue("?", txtUsername.Text);

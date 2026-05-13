@@ -88,7 +88,7 @@
             // appointmentToolStripMenuItem
             // 
             this.appointmentToolStripMenuItem.Name = "appointmentToolStripMenuItem";
-            this.appointmentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.appointmentToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.appointmentToolStripMenuItem.Text = "Appointment";
             this.appointmentToolStripMenuItem.Click += new System.EventHandler(this.appointmentToolStripMenuItem_Click);
             // 
@@ -138,9 +138,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(6, 97);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 97);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(107, 65);
+            this.pictureBox1.Size = new System.Drawing.Size(100, 63);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
