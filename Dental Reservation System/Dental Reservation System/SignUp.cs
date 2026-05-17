@@ -20,7 +20,7 @@ namespace Dental_Reservation_System
         public SignUp()
         {
             InitializeComponent();
-            con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\working\\Desktop\\APPSDEV\\Dental Reservation System\\Dental Reservation System\\Dental.mdb");
+            con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\User\\Desktop\\APPSDEV\\Dental Reservation System\\Dental Reservation System\\Dental.mdb");
         }
 
         private void button1_Click(object sender, EventArgs e)

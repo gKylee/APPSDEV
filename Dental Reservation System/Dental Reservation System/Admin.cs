@@ -17,7 +17,7 @@ namespace Dental_Reservation_System
         public Admin()
         {
             InitializeComponent();
-            con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\working\\Desktop\\APPSDEV\\Dental Reservation System\\Dental Reservation System\\Dental.mdb");
+            con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\User\\Desktop\\APPSDEV\\Dental Reservation System\\Dental Reservation System\\Dental.mdb");
         }
         private void LoadNotifications()
         {
@@ -97,6 +97,15 @@ namespace Dental_Reservation_System
         private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void doctorsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Doctor dc = new Doctor();
+            this.Hide();
+            dc.ShowDialog();
+            this.Show();
+
         }
     }
 }

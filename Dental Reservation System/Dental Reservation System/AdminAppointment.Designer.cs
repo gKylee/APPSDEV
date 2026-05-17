@@ -232,9 +232,9 @@
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(57)))), ((int)(((byte)(43)))));
             this.label10.Location = new System.Drawing.Point(554, 166);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(48, 21);
+            this.label10.Size = new System.Drawing.Size(57, 21);
             this.label10.TabIndex = 38;
-            this.label10.Text = "Time";
+            this.label10.Text = "Status";
             // 
             // label11
             // 
