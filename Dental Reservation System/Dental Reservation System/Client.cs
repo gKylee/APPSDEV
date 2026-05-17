@@ -17,7 +17,7 @@ namespace Dental_Reservation_System
         public Client()
         {
             InitializeComponent();
-            con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\working\\Desktop\\APPSDEV\\Dental Reservation System\\Dental Reservation System\\Dental.mdb");
+            con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\User\\Desktop\\APPSDEV\\Dental Reservation System\\Dental Reservation System\\Dental.mdb");
         }
 
         private void LoadNotifications()
@@ -39,7 +39,7 @@ namespace Dental_Reservation_System
 
                 string status = "";
                
-                if (message.ToLower().Contains("cancelled"))
+                if (message.ToLower().Contains("cancelled") || message.ToLower().Contains("cancel"))
                     status = "Cancelled";
                 else if (message.ToLower().Contains("visit"))
                     status = "On-Going";

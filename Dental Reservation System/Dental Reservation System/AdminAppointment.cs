@@ -20,7 +20,7 @@ namespace Dental_Reservation_System
         public AdminAppointment(String name, int id)
         {
             InitializeComponent();
-            con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\working\\Desktop\\APPSDEV\\Dental Reservation System\\Dental Reservation System\\Dental.mdb");
+            con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\User\\Desktop\\APPSDEV\\Dental Reservation System\\Dental Reservation System\\Dental.mdb");
             this.name = name;
             this.id = id;
             checkInfo();
@@ -70,6 +70,14 @@ namespace Dental_Reservation_System
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            if (string.IsNullOrWhiteSpace(txtMessage.Text))
+            {
+                MessageBox.Show("Please enter a message before proceeding.", "Message Required",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtMessage.Focus();
+                return;
+            }
             string Time =time.Value.ToString("hh:mm tt");
             
             con.Open();

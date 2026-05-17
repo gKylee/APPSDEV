@@ -86,15 +86,16 @@
             // appointmentToolStripMenuItem
             // 
             this.appointmentToolStripMenuItem.Name = "appointmentToolStripMenuItem";
-            this.appointmentToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.appointmentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.appointmentToolStripMenuItem.Text = "Schedule";
             this.appointmentToolStripMenuItem.Click += new System.EventHandler(this.appointmentToolStripMenuItem_Click);
             // 
             // doctorsToolStripMenuItem
             // 
             this.doctorsToolStripMenuItem.Name = "doctorsToolStripMenuItem";
-            this.doctorsToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.doctorsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.doctorsToolStripMenuItem.Text = "Doctors";
+            this.doctorsToolStripMenuItem.Click += new System.EventHandler(this.doctorsToolStripMenuItem_Click);
             // 
             // logoutToolStripMenuItem
             // 

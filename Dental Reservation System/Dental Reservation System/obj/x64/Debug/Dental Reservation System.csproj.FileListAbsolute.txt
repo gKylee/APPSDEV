@@ -1,0 +1,18 @@
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\bin\x64\Debug\Dental Reservation System.exe.config
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\bin\x64\Debug\Dental Reservation System.exe
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\bin\x64\Debug\Dental Reservation System.pdb
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental Reservation System.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental_Reservation_System.Admin.resources
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental_Reservation_System.AdminAppointment.resources
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental_Reservation_System.ApplyAppointment.resources
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental_Reservation_System.Client.resources
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental_Reservation_System.Login.resources
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental_Reservation_System.Properties.Resources.resources
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental_Reservation_System.Schedule.resources
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental_Reservation_System.SignUp.resources
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental Reservation System.csproj.GenerateResource.cache
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental Reservation System.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental Reservation System.exe
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental Reservation System.pdb
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental Reservation System.exe.config
+C:\Users\User\Desktop\APPSDEV\Dental Reservation System\Dental Reservation System\obj\x64\Debug\Dental_Reservation_System.Doctor.resources
