@@ -101,10 +101,6 @@
             "Dr. Yuri Calinawan",
             "Dr. Arron Calinawan"});
             this.cmbDentist.FormattingEnabled = true;
-            this.cmbDentist.Items.AddRange(new object[] {
-            "Dr. Kyle Albeos",
-            "Dr. Yuri Calinawan",
-            "Dr. Arron Calinawan"});
             this.cmbDentist.Location = new System.Drawing.Point(317, 208);
             this.cmbDentist.Name = "cmbDentist";
             this.cmbDentist.Size = new System.Drawing.Size(200, 21);
